@@ -7,6 +7,8 @@ description = "Database utilities library for Pleme platform - connection poolin
 repository = "https://github.com/pleme-io/pleme-database"
 homepage = "https://github.com/pleme-io/pleme-database"
 readme = "README.md"
+keywords = ["database", "postgres", "connection-pool", "repository", "sqlx"]
+categories = ["database"]
 
 [dependencies]
 sqlx = { version = "0.8", default-features = false, features = ["chrono", "json", "macros", "migrate", "postgres", "runtime-tokio", "uuid"], optional = true }
